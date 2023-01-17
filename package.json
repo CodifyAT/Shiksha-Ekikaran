@@ -1,0 +1,21 @@
+{
+  "name": "shiksha-ekikaran",
+  "version": "1.0.0",
+  "description": "Project to display educational data",
+  "main": "login.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodifyAT/Main-web.git"
+  },
+  "author": "Atharva Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodifyAT/Main-web/issues"
+  },
+  "homepage": "https://github.com/CodifyAT/Main-web#readme"
+}
+

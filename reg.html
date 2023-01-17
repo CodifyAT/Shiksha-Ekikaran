@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIKSHA EKIKARAN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <nav class="nav navbar-expand-lg bg-light navbar-sticky py-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img id="bimg" src="se-high-resolution-logo-color-on-transparent-background.png">
+                </a>
+            </div>
+        </nav>
+        <h1>SHIKSHA EKIKARAN</h1>
+        <br>
+    </header>
+    <h3 style="text-align:center">
+        REGISTER
+    </h3>
+    <br>
+    <form>
+        <div class="container">
+            <div class="input-group mb-5"id="iname">
+                <span class="input-group-text">Name</span>
+                <input class="form-control" id="name" type="name" placeholder="Enter the Name of Educational Institute"></input>
+            </div>
+
+            <div class="input-group mb-5" id="Addr">
+                <span class="input-group-text">Address</span>
+                <textarea class="form-control" id="add", rows="3"></textarea>
+            </div>
+
+            <div  class="input-group mb-5" id="em">
+                <span class="input-group-text">Email</span>
+                <input class="form-control" id="em" type="email" placeholder="Enter Email"></input>
+            </div>
+            <div class="input-group mb-5">
+                <span class="input-group-text">Enter web address</span>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            </div>
+            <div  class="input-group mb-5" id="cn">
+                <span class="input-group-text">Contact Number</span>
+                <input class="form-control" id="cn" type="tel" placeholder="Enter Contact Number"></input>
+            </div>
+            <br>
+            <div class="input-group mb-3">
+            <label class="input-group-text" for="state">Select State</label>
+            <select class="form-select form-select" id="state">
+                <option selected>Select state</option>
+                <option value="1">state1</option>
+                <option value="2">state2</option>
+                <option value="3">state3</option>
+              </select>
+            </div>
+            <br>
+            <div class="input-group ">
+                <label class="input-group-text" for="dist">Select District</label>
+              <select class="form-select form-select" id="dist">
+                <option selected>Select District</option>
+                <option value="1">dist1</option>
+                <option value="2">dist2</option>
+                <option value="3">dist3</option>
+              </select>
+            </div>
+            <br>
+            <br>
+            <div class="input-group mb-5">
+                <span class="input-group-text">Enter the size of the Institute</span>
+                <input class="form-control" type="name" placeholder="Enter Number"></input>
+            </div>
+            <div class="input-group mb-5">
+                <span class="input-group-text">Enter the number of classes:</span>
+                <input class="form-control" type="number" placeholder="Enter the total number of classes">
+            </div>
+            <div class="input-group mb-5">
+                <input type="file" class="form-control" id="inpf" aria-label="upload">Upload additional files
+            </input>
+            </div>
+            <button type="submit" id="submit"class="btn btn-lg mb-5"><a href="dashboard.html" style="color:aliceblue">Sign Up</a></button>
+        </div>
+    </form>
+</body>
+<style>
+    #submit{
+       margin-left: 45%;
+
+    }
+    .form-select{
+        display:inline;
+    }
+    h1{
+        text-align: center;
+        font-size: 90px;
+    }
+    #bimg{
+            width: 150px;
+            margin-left: auto;
+        }
+    .btn{
+        border:1px solid gray;
+        background-color: blueviolet;
+    }
+</style>
+    
